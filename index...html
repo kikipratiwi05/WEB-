@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Biodata Diri</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffeef2; /* warna pastel pink */
+      margin: 0;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background-color: #f5d5e0; /* pastel ungu muda */
+      color: #4d3c4d; /* font ungu gelap lembut */
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #b25c8d; /* pink keunguan elegan */
+      font-size: 28px;
+      margin-bottom: 30px;
+      border-bottom: 2px solid #dca4c7;
+      padding-bottom: 10px;
+    }
+
+    .biodata-wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .biodata-table {
+      flex: 1;
+      margin-right: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: rgba(255, 255, 255, 0.5);
+      color: #4d3c4d; /* warna teks yang lembut */
+    }
+
+    th, td {
+      border: 1px solid #dca4c7;
+      padding: 10px 15px;
+      text-align: left;
+      font-size: 16px;
+    }
+
+    th {
+      background-color: #fce4ec;
+      width: 40%;
+      font-weight: bold;
+    }
+
+    .photo {
+      flex-shrink: 0;
+    }
+
+    .photo img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      border: 3px solid #fff;
+      object-fit: cover;
+    }
+
+    @media (max-width: 768px) {
+      .biodata-wrapper {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .biodata-table {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>BIODATA DIRI</h1>
+    <div class="biodata-wrapper">
+      <div class="biodata-table">
+        <table>
+          <tr>
+            <th>Nama</th>
+            <td>Kiki Pratiwi</td>
+          </tr>
+          <tr>
+            <th>Jurusan</th>
+            <td>Teknologi Industri Pertanian</td>
+          </tr>
+          <tr>
+            <th>Alamat</th>
+            <td>Curup, Bengkulu</td>
+          </tr>
+          <tr>
+            <th>Tempat, Tanggal Lahir</th>
+            <td>Curup, 28 Mei 2004</td>
+          </tr>
+          <tr>
+            <th>Agama</th>
+            <td>Islam</td>
+          </tr>
+          <tr>
+            <th>Hobi</th>
+            <td>Traveling</td>
+          </tr>
+        </table>
+      </div>
+      <div class="photo">
+        <img src="Gambar 2.jpg" alt="Foto Diri">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
